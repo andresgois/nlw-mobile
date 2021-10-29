@@ -11,5 +11,9 @@
     - expo start
 
 ## Instalando dependências
+- expo install expo-font @expo-google-fonts/roboto
+- expo install expo-app-loading
+- expo install react-native-svg
+- yarn add --dev react-native-svg-tra
 
 ## Configurações
