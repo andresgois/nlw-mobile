@@ -1,8 +1,24 @@
 import React from 'react';
-import { Home } from './src/screens/Home'
+import { useFonts, Roboto_400Regular, Roboto_700Bold} from '@expo-google-fonts/roboto';
+import { Home } from './src/screens/Home';
+import AppLoading from 'expo-app-loading';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
+  // Para esperar as fontes serem carragadas
+  const [ fontsLoaded ] = useFonts({
+    Roboto_400Regular,
+    Roboto_700Bold
+  });
+
+  if(!fontsLoaded){
+    return <AppLoading />
+  }
+
   return (    
-    <Home />
+    <>
+      <StatusBar style="light" />
+      <Home />
+    </>
   );
 }
