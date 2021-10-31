@@ -16,6 +16,7 @@
 - expo install react-native-svg
 - yarn add --dev react-native-svg-transformer
 - yarn add react-native-iphone-x-helper
+- expo install expo-linear-gradient
 
 
 ## Configurações

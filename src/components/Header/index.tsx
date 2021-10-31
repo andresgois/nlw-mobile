@@ -9,7 +9,7 @@ export function Header() {
         <View style={Styles.container}>
             <LogoSvg />
 
-            <UserPhoto />
+            <UserPhoto imageUri='https://avatars.githubusercontent.com/u/39030819?v=4' />
             
             <TouchableOpacity>
                 <Text style={Styles.logoutText}>
