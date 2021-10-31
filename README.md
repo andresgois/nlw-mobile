@@ -1,5 +1,3 @@
-
-
 # NLW HEAT - Mobile
 ## Projeto feito com Expo
 

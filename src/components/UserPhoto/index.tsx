@@ -29,8 +29,15 @@ export function UserPhoto({imageUri, sizes = 'NORMAL'}: Props){
     return (
         <LinearGradient
             colors={[ COLORS.PINK, COLORS.YELLOW ]}
+            start={{ x:0, y:0.8 }}
+            end={{ x:0.9, y:1 }}
             style={[
                 styles.container,
+                {
+                    width: containerSize,
+                    height: containerSize,
+                    borderRadius: avatarSize / 2
+                }
             ]}
         >
             <Image 
@@ -38,8 +45,8 @@ export function UserPhoto({imageUri, sizes = 'NORMAL'}: Props){
                 style={[
                     styles.avatar,
                     {
-                        width: containerSize,
-                        height: containerSize,
+                        width: avatarSize,
+                        height: avatarSize,
                         borderRadius: avatarSize / 2
                     }
                 ]}

@@ -9,13 +9,16 @@ export function Header() {
         <View style={Styles.container}>
             <LogoSvg />
 
-            <UserPhoto imageUri='https://avatars.githubusercontent.com/u/39030819?v=4' />
-            
-            <TouchableOpacity>
-                <Text style={Styles.logoutText}>
-                    Sair
-                </Text>
-            </TouchableOpacity>
+            <View style={Styles.logoutButton}>
+                <TouchableOpacity>
+                    <Text style={Styles.logoutText}>
+                        Sair
+                    </Text>
+                </TouchableOpacity>
+
+                <UserPhoto imageUri='https://avatars.githubusercontent.com/u/39030819?v=4' />
+            </View>
+
         </View>
     );
 }
