@@ -15,6 +15,8 @@
 - yarn add --dev react-native-svg-transformer
 - yarn add react-native-iphone-x-helper
 - expo install expo-linear-gradient
+- yarn add moti
+- expo install react-native-reanimated
 
 
 ## Configurações
