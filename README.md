@@ -24,4 +24,10 @@
 
 [Configurar SVG como componente](https://github.com/kristerkari/react-native-svg-transformer)
 
+- **Configurações para animação**
+
+[Configurações para animação](https://docs.expo.dev/versions/latest/sdk/reanimated/)
+
+- **Limpar o cache**
+- expo start -c
 
