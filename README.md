@@ -17,6 +17,9 @@
 - expo install expo-linear-gradient
 - yarn add moti
 - expo install react-native-reanimated
+- **expo-auth-session: Para lidar com o redirecionamento ao clicar em login**
+- **expo-random: chave aleatoria para saber pra qual tela voltar depois de fazer o login no github**
+- expo install expo-auth-session expo-random
 
 
 ## Configurações
